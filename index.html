@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nasa Image Generator</title>
+    <!--<link rel="icon" type="image/png" href="favicon.png" />-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container" id="container">
+      <!-- popup window with image -->
+      <div class="popup-image">
+        <img src="" class="hd-image" id="hd-image">
+      </div>
+      <div class="main-content-container">
+        
+        <!-- title -->
+        <div class="title-container">
+          <div class="title"><span id="photo-title"></span></div>
+          <div class="date"><span id="photo-date"></span></div>
+        </div>
+        <!-- Image -->
+        <div class="image-container">
+          <img src="" class="image" id="image" />
+          <!-- Menu and Description -->
+          <div class="image-container-right">
+            <div class="menu-container">
+              <div class="menu-bar-1 menu-bar"></div>
+              <div class="menu-bar-2 menu-bar"></div>
+              <span class="description">Description</span>
+            </div>
+            <div class="about-image-container">
+              <span class="about-image" id="about-image"></span>
+            </div>
+          </div>
+        </div>
+        <!-- Image Copyright -->
+        <div class="copyright">
+          <span id="photo-copyright"></span>
+        </div>
+        <!-- Buttons -->
+        <div class="button-container">
+          <button class="random-img-btn" id="random-img-btn">
+            Random Image
+          </button>
+          <button class="todays-img-btn" id="todays-img-btn">
+            Today's Image
+          </button>
+        </div>
+      </div>
+      <!-- Footer -->
+      <div class="footer-container">
+        <div class="background-by-container">
+          <div class="background-by">Background Image:</div>
+          <a
+            href="https://unsplash.com/photos/Jztmx9yqjBw"
+            target="_blank"
+            class="background-link"
+            >Ryan Hutton</a
+          >
+        </div>
+        <div class="copyright-site">
+          Copyright &copy; by Heather Smanski 2021
+        </div>
+      </div>
+    </div>
+    <!-- Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
